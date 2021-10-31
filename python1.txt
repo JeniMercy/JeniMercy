@@ -1,0 +1,24 @@
+1.Variable:
+              Variable is a reserved memory location to store values. Ex: X = 5
+    
+
+2.Data Type:
+               The data stored in memory can be of many types.
+         
+               Types of data types: Numbers, String, List, Tuple, Dictionary.
+
+3.Operator:
+                An operator is a symbol or a special character to perform certain mathematical or logical manipulations.
+           
+                      Ex: 4 + 3 = 7 ie, "+" is a operator.     
+
+4.Data Structures:
+                 Python has primitive data structures such as floats, integers, strings, and Booleans. 
+                 
+                 Python also has non-primitive data structures such as lists, tuples, dictionaries, and sets. 
+            
+
+5.Keywords:
+                 The reserved words are keywords that cannot be used as constant or variable or any other identifier names.
+     
+                 Ex: if,for,return,class,print,else,break,or,not,try,while,continue.
