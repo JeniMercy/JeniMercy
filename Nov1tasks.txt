@@ -1,0 +1,110 @@
+November 1:
+TASK1:
+
+#Floor Division:
+  Finding the minimal value from quotient and ploting the value to closest integer.
+#Examples:
+ 
+print(7 // 4)  ->  1
+ 
+print(-7 // 4) -> -2
+
+print(9 // 4)  ->  2
+ 
+print(-9 // 4) -> -3
+
+TASK2:
+
+#Difference between Interpreter and Compiler
+ 
+       INTERPRETER                                                                        COMPILER
+
+
+1. Interpreter translates just one statement                          1. Compiler scans the entire program and translates             
+of the program at a time into machine code.	                         the whole of it into machine code at once.
+
+2. An interpreter takes very less time                                2. A compiler takes a lot of time to analyze the source code. 
+to analyze the source code. However,                                     However, the overall time taken to execute the process is much faster.
+the overall time to execute the                              
+ process is much slower.	 
+                                             	 
+3. An interpreter does not generate                                   3. A compiler always generates an intermediary object code.
+an intermediary code.  Hence, an                                         It will need further linking. Hence more memory is needed.
+interpreter is highly efficient                  
+in terms of its memory.	
+
+4. Keeps translating the program continuously till                    4. A compiler generates the error message only after it scans 
+ the first error is confronted. If any error                             the complete program and hence debugging is
+   is spotted,it stops working                                           relatively harder while working with a compiler. 
+and hence debugging becomes easy.
+                               
+5. Interpreters are used by programming                               5. Compliers are used by programming languages like C and C++ for example.
+languages like Ruby and Python for example.                                                               
+                                                 
+
+
+TASK3:
+#Difference between python 2 and python 3
+
+
+
+Basis of comparison	                                    Python 3	                             Python 2
+
+Release Date	                                              2008	                               2000
+
+Function print	                                          print (“hello”)	                    print “hello”
+
+Division of Integers	                      Whenever two integers are divided,            	When two integers are divided, 
+                                                   you get a float value                               you always provide integer value.
+
+Unicode	                                    In Python 3, default storing of 	                To store Unicode string value, 
+                                                  of strings is Unicode.                         you require to define them with “u”.
+
+
+Syntax                                         The syntax is simpler and                      The syntax of Python 2 was comparatively 
+                                                easily understandable.	                                difficult to understand
+
+
+Rules of ordering Comparisons	          In this version, Rules of ordering comparisons       Rules of ordering comparison are 
+                                                   have been simplified.	                           very complex.
+
+
+Iteration	                          The new Range() function introduced to 	         In Python 2, the xrange() is
+                                                  to perform iterations.                              used for iterations.
+
+
+Exceptions	                          It should be enclosed in parenthesis.	                It should be enclosed in notations.
+
+
+Leak of variables	                  The value of variables never changes.	                The value of the global variable will
+                                                                                                change while using it inside for-loop.
+
+
+Backward compatibility	                  Not difficult to port python 2 to                      Python version 3 is not backwardly 
+                                          python 3 but it is never reliable.	                       compatible with Python 2.
+
+
+
+Library	                                 Many recent developers are creating                      Many older libraries created for Python
+                                         libraries which you can only                                 2 is not forward-compatible.
+                                         use with Python 3.                   
+                            	
+                                                    	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
