@@ -1,0 +1,73 @@
+November2:
+TASK1:
+ 
+What's end/sep parameter in print function
+
+
+The end parameter:
+
+The end parameter is used to append any string at the end of the output of the print statement in python.
+
+By default, the print method ends with a newline. 
+
+This means there is no need to explicitly specify the parameter end as '\n'. 
+ 
+EX1:
+print("Studytonight",)
+print("is awesome")
+
+print("Studytonight", end= "\n")
+print("is awesome")
+
+Output: Studytonight
+        is awesome
+        Studytonight
+        is awesome
+EX2:
+print("Studytonight", end=' ')
+print("is awesome")
+
+Output: Studytonight is awesome
+
+
+EX3:
+print("Hi", end=' Studytonight ')
+print("you are awesome")
+
+Output: Hi Studytonight you are awesome
+
+
+The sep parameter:
+ 
+             Sometimes, we may wish to print multiple values in a Python program in a readable manner. 
+This is when the argument sep is used. 
+The arguments passed to the program can be separated by different values.
+The default value for sep is whitespace.
+The sep parameter is primarily used to format the strings.
+
+EX1:
+print("Study", "tonight")
+print("Study", "tonight", sep = ' ')
+
+Output:
+
+Study tonight
+Study tonight
+
+EX2:
+print("Study", "tonight", sep = '')
+print("Study", "tonight", sep = ' & ')
+
+Output:
+
+Studytonight
+Study & tonight
+
+EX3:
+print("Studytonight","has","been","created","for", sep = " _ ", end=" _STUDENTS")
+
+Output:
+
+Studytonight _ has _ been _ created _ for _STUDENTS
+
+
