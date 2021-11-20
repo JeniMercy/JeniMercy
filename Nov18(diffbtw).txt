@@ -1,0 +1,27 @@
+Difference between list tuple set dictionary
+
+
+LIST                               TUPLE                             SET                         DICTIONARY
+
+
+Ordered and changeable      Tuple is ordered list       It is unordered collection        It is unordered collection of 
+                                    of items.                   of unique items.               key and value paired data.
+
+
+Declared in [] brackets.    Declared in () brackets.    Declared in {} brackets.           Declared in {key:value}.
+
+
+Mutable                             Immutable                   Mutable                              Mutable
+
+
+Allow duplicate elements.    Allow duplicate elements.    Will not allow duplicate elements   Will not allow duplicate elements
+ie, A = [1,2,3,3,4]             ie, A = (1,2,2,3)          ie, A = {6,7,8}                       ie, A = {A:1,B:2}
+
+
+
+
+Ex: 
+A = [1,2,3,"Hii"]             A = (1,2,3,"Hii")                A = {1,2,3,4}                   A = {1:"red",2:"green"}
+
+
+
