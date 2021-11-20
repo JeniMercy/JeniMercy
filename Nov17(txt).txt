@@ -1,0 +1,19 @@
+Nov-17(Task)
+Advantages of tuples:
+
+*Tuples are fined size in nature 
+*i.e. we can't add/delete elements to/from a tuple.
+*We can search any element in a tuple.
+*Tuples are faster than lists, because they have a constant set of values.
+*Tuples can be used as dictionary keys, because they contain immutable values like strings, numbers, etc.
+*Tuples are used whenever you want to return multiple results from a function. 
+*Since they're immutable, they can be used as keys for a dictionary (lists can't).
+
+
+Advantages of Sets:
+
+*Sets are used to store multiple items in a single variable. 
+*Set is one of 4 built-in data types in Python used to store collections of data.
+*Sets cannot have multiple occurrences of the same element, 
+it makes sets highly useful to efficiently remove duplicate values from a list or tuple and 
+to perform common math operations like unions and intersections.
